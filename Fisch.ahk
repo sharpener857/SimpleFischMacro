@@ -5,7 +5,7 @@ shakeIt() {
 }
 activate() {
 	Send "\a"
-	; Send "{Shift}a" ; For those whose UI navigation key is ~
+	; Send "{Shift}" ; For those whose UI navigation key is ~
 }
 #HotIf WinActive("Roblox")
 ^w::activate()
