@@ -1,12 +1,11 @@
 #Requires AutoHotkey v2.0
 
 shakeIt() {
-	Send "s"
-	Send "{Enter}"
+	Send "s{Enter}"
 }
 activate() {
-	Send "\"
-	; Send "{Shift}" ; For those whose UI navigation key is ~
+	Send "\a"
+	; Send "{Shift}a" ; For those whose UI navigation key is ~
 }
 #HotIf WinActive("Roblox")
 ^w::activate()
@@ -19,3 +18,4 @@ XButton2::shakeIt()
 
 c::LButton
 #HotIf
+
