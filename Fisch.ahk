@@ -1,7 +1,7 @@
 #Requires AutoHotkey v2.0
 
 shakeIt() {
-	Send "s{Enter}"
+	Send "{Enter}"
 }
 activate() {
 	Send "\a"
@@ -18,4 +18,3 @@ XButton2::shakeIt()
 
 c::LButton
 #HotIf
-
